@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Archivo Variable", sans-serif;
+}
+
+body {
+  background-color: var(--color-stone-50);
+  color: var(--color-zinc-900);
+}
+
+h1,
+h2 {
+  font-stretch: 112%;
+  letter-spacing: -0.01em;
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-amber-600);
+  outline-offset: 2px;
+}
